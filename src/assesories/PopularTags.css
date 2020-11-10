@@ -1,0 +1,12 @@
+.popularTags{
+    padding: 40px 30px;
+    color: var(--apptext-color);
+    background-color: var(--highlights-color);
+}
+
+.popularTags__container{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

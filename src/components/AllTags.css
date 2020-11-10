@@ -1,0 +1,18 @@
+.allTags{
+    padding: 100px 30px;
+    background-color: var(--highlights-color);
+}
+.allTags>h1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--apptext-color);
+    background-color: var(--mainbackground-color);
+}
+.allTags__list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

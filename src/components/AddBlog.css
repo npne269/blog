@@ -1,0 +1,50 @@
+
+.addBlog{
+    padding: 100px 30px;
+    background-color: var(--highlights-color);
+    color: var(--apptext-color);
+}
+.addBlog>h1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--apptext-color);
+    background-color: var(--mainbackground-color);
+}
+.addBlog__form{
+    margin: 40px 0px;
+}
+.addBlog__submit{
+    margin-top: 20px !important;
+    background-color: tomato !important;
+    color: white !important;
+}
+.addBlog__input{
+    width: 400px;
+    height: 40px;
+    padding-left:20px;
+    font-size: 20px;
+    /* margin: 20px 0px; */
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+label{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--apptext-color);
+}
+select,input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:600px){
+    .addBlog__input{
+        width: 100%;
+    }
+}

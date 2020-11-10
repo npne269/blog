@@ -1,0 +1,8 @@
+.footer{
+    height: 150px;
+    background-color: var(--mainbackground-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--apptext-color);
+}

@@ -1,0 +1,18 @@
+.storiesList{
+    padding: 40px 30px;
+    color: var(--apptext-color);
+}
+.storiesList>h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.storiesList>h4{
+    text-align: end;
+    color: tomato;
+}
+
+.storiesList__stories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+.blogList{
+    padding: 100px 30px;
+    background-color: var(--highlights-color);
+    color: var(--apptext-color);
+}
+.blogList>h1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--apptext-color);
+    background-color: var(--mainbackground-color);
+}
+.blogList__main{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blogList>h2{
+    margin: 10px 0px;
+    margin-bottom: 20px;
+}
